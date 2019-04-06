@@ -13,7 +13,7 @@ const passport = require('./config/passport');
 // bodyParser Middleware
 app.use(bodyParser.urlencoded({
     extended: false
-}))
+}));
 
 app.use(bodyParser.json());
 
